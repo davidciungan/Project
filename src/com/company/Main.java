@@ -21,7 +21,8 @@ public class Main {
 
         float sum = numar + coloana;
         String calcul ="eu am"+ numar +x;
-
+short maine
+        maine=13
 
 
 
