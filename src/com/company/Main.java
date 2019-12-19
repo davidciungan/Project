@@ -12,7 +12,7 @@ public class Main {
         int coloana=1;
 
 
-
+        System.out.println("Luat' cu pita!");
 
 
 
