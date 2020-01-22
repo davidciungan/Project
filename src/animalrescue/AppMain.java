@@ -7,27 +7,52 @@ public class AppMain {
     public static void main(String[] args) {
         Dog rex = new Dog();
 
-        System.out.println(rex.age);
-        rex.age = 3.2f;
-        System.out.println(rex.age);
-        System.out.println(rex.name);
-Dog brunno = new Dog();
-        System.out.println(brunno.name);
+        rex.setName("Danut");
+        System.out.println(rex.getName());
+        rex.setRace("bichon");
+        System.out.println(rex.getRace());
+        rex.setAge(3.5f);
+        System.out.println(rex.getAge());
+        rex.setColor("blue");
+        System.out.println(rex.getColor());
+        rex.setSize(25);
+        System.out.println(rex.getSize());
+        rex.setFriendly(true);
+        System.out.println(rex.getFriendly());
+
+        Dog brunno = new Dog();
+
 
         //tema
 
-        Animal cow= new Animal();
+        Animal cow = new Animal();
 
-        System.out.println(cow.Name="maria");
-        System.out.println(cow.HealthLevel=10);
+        cow.setName("Gina");
+        System.out.println(cow.getName());
+        cow.setHealt(8);
+        System.out.println(cow.getHealthlevel());
+        cow.setHunger(9);
+        System.out.println(cow.getHungerlevel());
+        cow.setStateofmind(9);
+        System.out.println(cow.getStateofmind());
 
-Adopter human = new Adopter();
-        System.out.println(human.Name="Ana");
-        System.out.println(human.money=14);
+
+
+Rescuer adopter = new Rescuer();
+
+ adopter.setName("Rebeka");
+        System.out.println(adopter.getName());
+ adopter.setMoney(20);
+        System.out.println(adopter.getMoney());
+
 
         Vet medic = new Vet();
-        System.out.println(medic.Name="Gigel");
-        System.out.println(medic.Speciality="ce vrea el");
+
+  medic.setName("Gigel");
+        System.out.println(medic.getName());
+  medic.setSpeciality("Padurar");
+        System.out.println(medic.getSpeciality());
+
     }
 
 

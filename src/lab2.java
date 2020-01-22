@@ -37,15 +37,15 @@ public class lab2 {
         int rest = div(1267, 9);
         System.out.println("Restul impartirii este:" + rest);
 
-//float suma  = sum(10f,20f,30f);
 
-        //     float medie= suma/3f;
+        float mmedie = mda(10,20,30);
 
-        //   System.out.println("Media aritmetica este:" + medie);
+
+          System.out.println("Media aritmetica este:" + mmedie);
 
 //EXERCITIUL 7
 
-     float C=  5/9*(65-32);
+     float C=tmpc(120);
 
         System.out.println("Temperatura in grade celsius este:" + C);
 
@@ -57,7 +57,7 @@ public class lab2 {
 
         //Exercitiul 9
 
-      float S=div(dism,tim)
+
 
 
 
@@ -108,32 +108,27 @@ public class lab2 {
 
     // EXERCITIUL 4 // asta nu stiu sa-l fac
 
-    // public static float mean(float sum/float numar){
+     public static float mda(float a1,float a2, float a3) {
 
-    //     float numar =3f;
-    //   float mean= sum/numar;
-    //    return mean;
-
-
-    //    public static float sum(float num1f,float num2f, float num3f){
+         float mda = (a1 + a2 + a3) / 3;
+         return mda;
 
 
-//float sum = num1f+ num2f+num3f;
-    //   return sum;
-
+     }
 
 //EXERCITIUL 7 -> nu inteleg care- i faza...nu mi da eroare,,,da nu -mi da nici rezultatu
 
 
 
-    public static float mul(){
+  public static float tmpc(float c){
 
-        float gradeF = 65;
-        float gradeC = 5/9*(gradeF-32);
+     float tmpc = (c-32)* 5 /9;
+     return tmpc;
+         }
 
-return gradeC;
+//return gradeC;
 
-}
+
 // EXERCITIUL 8
 
     public static float div(){
@@ -163,7 +158,7 @@ return gradeC;
 
 float km= 1000*metrii;
 float mile= metrii*1609;
-float speed=metrii/sec;
+
 float speed2 =km/hour;
 float speed3=mile/hour;
 float spd=dism/tim;
