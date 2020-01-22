@@ -32,7 +32,7 @@ public class Main {
 
         System.out.println(op.switcher(345));
 
-//        EXERCITIUL 9
+//        EXERCITIUL 9 .
 
         System.out.println(op.isNumberEven(15));
 
